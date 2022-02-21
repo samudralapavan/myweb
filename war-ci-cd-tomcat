@@ -3,7 +3,7 @@ node('master'){
 	stage('SCM Checkout'){
 	    git branch: 'master', 
 			credentialsId: 'github', 
-			url: 'https://github.com/javahometech/myweb'
+			url: ''
 	}
 	
 	stage('MVN Build'){
